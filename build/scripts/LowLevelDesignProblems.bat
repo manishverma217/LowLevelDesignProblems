@@ -63,10 +63,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\geektrust.jar
+set CLASSPATH=%APP_HOME%\lib\LowLevelDesignProblems-1.0-SNAPSHOT.jar
 
 @rem Execute LowLevelDesignProblems
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LOW_LEVEL_DESIGN_PROBLEMS_OPTS%  -classpath "%CLASSPATH%" com.example.geektrust.Main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LOW_LEVEL_DESIGN_PROBLEMS_OPTS%  -classpath "%CLASSPATH%" lld.ticTacToe.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
